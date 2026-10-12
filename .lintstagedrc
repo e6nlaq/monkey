@@ -1,5 +1,0 @@
-{
-    "*.{ts,tsx}": [
-        "bunx biome check --fix --unsafe"
-    ]
-}
