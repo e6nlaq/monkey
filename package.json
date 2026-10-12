@@ -8,7 +8,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
+        "build": "bun check && vite build",
         "preview": "vite preview",
         "lint": "oxlint",
         "format": "oxfmt"
