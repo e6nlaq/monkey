@@ -71,6 +71,7 @@ jobs:
 
                   # package.json と Bun の lockfile を同期
                   bun install --lockfile-only
+                  bunx oxfmt package.json
 
             - name: Determine artifact filename
               id: artifact
